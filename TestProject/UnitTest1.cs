@@ -22,7 +22,7 @@ namespace TestProject
         [InlineData(10, "Buzz")]
         [InlineData(20, "Buzz")]
         [InlineData(25, "Buzz")]
-        public void Print_Fizz_WhenDivideBy_5_Only(int input, string expected)
+        public void Print_Buzz_WhenDivideBy_5_Only(int input, string expected)
         {
             //Act
             var res = Program.Print(input);
@@ -35,7 +35,7 @@ namespace TestProject
         [InlineData(30, "FizzBuzz")]
         [InlineData(60, "FizzBuzz")]
         [InlineData(90, "FizzBuzz")]
-        public void Print_Fizz_WhenDivideBy_5_AND_3(int input, string expected)
+        public void Print_FizzBuzz_WhenDivideBy_5_AND_3(int input, string expected)
         {
             //Act
             var res = Program.Print(input);
